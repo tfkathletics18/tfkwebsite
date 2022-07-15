@@ -138,15 +138,45 @@ p.covidp {
   line-height: 25px;
 }
 
-h5.h5h {
+.h5h {
   color: white;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 1px;
     background: #0c0d0d;
-    width: 800px;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 10px 10px;
+    width: 300px;
+}
+
+.h5h.inverted{
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background: #ee236b;
+  margin: 5px auto;
+  padding: 10px 10px;
+  width: 300px;
+}
+
+.h5h.inverted.secondSlide {
+  font-size: 16px;
+  width: 500px;
+  margin: 5px 10px;
+  /* background: black */
+}
+
+.h5h.inverted.firstSlide {
+  font-size: 15px;
+  width: 98%
+}
+
+.h5h.inverted.thirdSlide {
+  font-size: 16px;
+  width: 98%;
+  margin: 5px 0;
+  background: #ee236b;
 }
 
 .rightt {
@@ -159,7 +189,7 @@ li#navli {
   display: inline;
   font-weight: 500;
   color: black;
-  font-family: roboto;
+  /* font-family: roboto; */
   letter-spacing: 1px;
   padding: 0 5px;
 }
@@ -602,7 +632,7 @@ h1, h2, h3, h4, h5, h6, figure {
       max-width: 100%;
       display: table;
       opacity: 0;
-      height: 700px;
+      height: max-content;
       z-index: 9; }
 
         @media screen and (max-width: 768px) {
@@ -623,6 +653,8 @@ h1, h2, h3, h4, h5, h6, figure {
           font-style: italic;
           font-weight: 900;
           text-transform: uppercase;
+          width: 70vw;
+          letter-spacing: -3px;
         }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -737,12 +769,7 @@ h1, h2, h3, h4, h5, h6, figure {
                 
                 
                 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1.slidertoph1{
-                    font-size: 14px;
-                    width: 90%;
-                    margin: 10px 5%;
-                    margin-top: 100px;
-                    padding: 10px 5px;
-                    background: #8e100fbf;
+                   
                 }
                 
                 .spanh1 {
@@ -1685,7 +1712,7 @@ input[type="text"] {
 
 #colorlib-footer {
   padding-top: 6em;
-  background: #25282a;
+  background: #141516;
   color: rgba(255, 255, 255, 0.6) !important; }
   #colorlib-footer p {
     font-size: 14px;
